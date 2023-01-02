@@ -4,7 +4,7 @@
         display: grid;
     }
     .header-options {
-        height: 10vh;
+        height: 5vh;
         grid-row: 1;
     }
     .dashboard-interactive {
@@ -16,16 +16,69 @@
     .left-toolbar {
         height: 90vh;
         width: 15vw;
-        grid-column: 1;
     }
     .middle-toolbar {
         height: 90vh;     
         width: 70vw;
-        grid-column: 2;
+        display: flex;
+        flex-direction: column;
+    }
+    .upper-options {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        height: 15%;
+        width: 100%;
+    }
+    .data-stats-button {
+        width: 25%;
+        margin: 3%;
+        border-radius: 8px;
+    }
+    .dashboard-button {
+        width: 25%;
+        margin: 3%;
+        border-radius: 8px;
+    }
+    .security-button {
+        width: 25%;
+        margin: 3%;
+        border-radius: 8px;
+    }
+    .main-visual {
+        width: 100%;
+        height: 70%;
+        display: flex;
+        background-color: #D3D3D3;
+        border-radius: 8px;
+    }
+    .lower-options {
+        grid-row: 3;
+        height: 15%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+    .hydro-system-button {
+        width: 25%;
+        margin: 3%;
+        border-radius: 8px;
+    }
+    .users-button {
+        width: 25%;
+        margin: 3%;
+        border-radius: 8px;
+    }
+    .lab-button {
+        width: 25%;
+        margin: 3%;
+        border-radius: 8px;
     }
     .right-toolbar {
         height: 100%;
         width: 15vw;
-        grid-column: 3;
     }
 }
