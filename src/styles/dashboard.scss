@@ -6,6 +6,17 @@
     .header-options {
         height: 5vh;
         grid-row: 1;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-top: 5px;
+    }
+    .w3-bar-item {
+        padding-right: 73px;
+        padding-left: 20px;
+    }
+    .header-options img{
+        padding-right: 0px;
     }
     .dashboard-interactive {
         height: 90vh;
