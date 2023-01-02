@@ -1,0 +1,31 @@
+@media (min-width: 700px) {
+    .app-grid {
+        height: 100vh;
+        display: grid;
+    }
+    .header-options {
+        height: 10vh;
+        grid-row: 1;
+    }
+    .dashboard-interactive {
+        height: 90vh;
+        place-content: center;
+        grid-row: 2;
+        display: flex;
+    }
+    .left-toolbar {
+        height: 90vh;
+        width: 15vw;
+        grid-column: 1;
+    }
+    .middle-toolbar {
+        height: 90vh;     
+        width: 70vw;
+        grid-column: 2;
+    }
+    .right-toolbar {
+        height: 100%;
+        width: 15vw;
+        grid-column: 3;
+    }
+}
