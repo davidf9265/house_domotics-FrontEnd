@@ -1,20 +1,22 @@
 import React from 'react';
 import '../styles/dashboard.scss'
 import '../styles/house-top-view.scss'
+import '../styles/elevations.scss'
 import gear from '../../resources/gear.png'
 import Clock from '../components/Clock';
 import CustomDate from '../components/CustomDate';
 import Button from '../components/Button';
+import Zone from '../components/Zone';
 
 const Dashboard = () => {
     return (
         <div className='app-grid'>
-            <div className='header-options'>
+            <div className='header-options elevation-20'>
                 <div className="w3-bar-item">user</div>
                 <div className="w3-bar-item">voice assistant: enabled</div>
                 <CustomDate className="w3-bar-item"></CustomDate>
                 <Clock className="w3-bar-item">w3-bar-item</Clock>
-                <img src={gear} alt="" />
+                <img src={gear} alt="settings-icon"/>
             </div>
             <div className='dashboard-interactive'>
                 <div className='left-toolbar'>
@@ -25,22 +27,20 @@ const Dashboard = () => {
                         <Button label="DATA / STATS"></Button>
                         <Button label="DASHBOARD"></Button>
                         <Button label="SECURITY"></Button>
-                        {/* <button className='dashboard-button'>DASHBOARD</button>
-                        <button className='security-button'>SECURITY</button> */}
                     </div>
-                    <div className='main-visual'>
+                    <div className='main-visual elevation-8'>
                         <div className='group'>
-                            <div className='rectangle_1'></div>
-                            <div className='rectangle_2'></div>
-                            <div className='rectangle_3'></div>
+                            <Zone className='rectangle_1 elevation-6'></Zone>
+                            <Zone className='rectangle_2 elevation-6'></Zone>
+                            <Zone className='rectangle_3 elevation-6'></Zone>
 
-                            <div className='rectangle_4'></div>
-                            <div className='rectangle_5'></div>
-                            <div className='rectangle_6'></div>
+                            <Zone className='rectangle_4 elevation-6'></Zone>
+                            <Zone className='rectangle_5 elevation-6'></Zone>
+                            <Zone className='rectangle_6 elevation-6'></Zone>
 
-                            <div className='rectangle_7'></div>
-                            <div className='rectangle_8'></div>
-                            <div className='rectangle_9'></div>
+                            <Zone className='rectangle_7 elevation-6'></Zone>
+                            <Zone className='rectangle_8 elevation-6'></Zone>
+                            <Zone className='rectangle_9 elevation-6'></Zone>
                         </div>
 
                     </div>
@@ -48,9 +48,6 @@ const Dashboard = () => {
                         <Button label="HYDRO SYSTEM"></Button>
                         <Button label="USERS"></Button>
                         <Button label="LAB"></Button>
-                        {/* <button className='hydro-system-button'>HYDRO SYSTEM</button>
-                        <button className='users-button'>USERS</button>
-                        <button className='lab-button'>LAB</button> */}
                     </div>
                 </div>
                 <div className='right-toolbar'>

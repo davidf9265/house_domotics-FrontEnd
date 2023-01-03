@@ -5,58 +5,7 @@
   width: 370px;
   height: 280px;
 }
-
 .rectangle_1 {
-  position: absolute;
-  left: 0px;
-  top: 57.93px;
-  width: 88.23px;
-  height: 171.65px;
-  background: #36404f;
-  background-blend-mode: normal;
-}
-
-.rectangle_2 {
-  position: absolute;
-  left: 105.31px;
-  top: 57.93px;
-  width: 156.54px;
-  height: 171.65px;
-  background: #36404f;
-  background-blend-mode: normal;
-}
-
-.rectangle_3 {
-  position: absolute;
-  left: 281.77px;
-  top: 57.93px;
-  width: 88.23px;
-  height: 171.65px;
-  background: #36404f;
-  background-blend-mode: normal;
-}
-
-.rectangle_4 {
-  position: absolute;
-  left: 105.31px;
-  top: 0px;
-  width: 156.54px;
-  height: 46.13px;
-  background: #36404f;
-  background-blend-mode: normal;
-}
-
-.rectangle_5 {
-  position: absolute;
-  left: 44.12px;
-  top: 241.38px;
-  width: 281.77px;
-  height: 38.62px;
-  background: #36404f;
-  background-blend-mode: normal;
-}
-
-.rectangle_6 {
   position: absolute;
   left: 0px;
   top: 0px;
@@ -66,8 +15,16 @@
   background-blend-mode: normal;
   transform: scaleY(-1);
 }
-
-.rectangle_7 {
+.rectangle_2 {
+  position: absolute;
+  left: 105.31px;
+  top: 0px;
+  width: 156.54px;
+  height: 46.13px;
+  background: #36404f;
+  background-blend-mode: normal;
+}
+.rectangle_3 {
   position: absolute;
   left: 278.92px;
   top: 0px;
@@ -77,8 +34,35 @@
   background-blend-mode: normal;
   transform: scaleY(-1);
 }
+.rectangle_4 {
+  position: absolute;
+  left: 0px;
+  top: 57.93px;
+  width: 88.23px;
+  height: 171.65px;
+  background: #36404f;
+  background-blend-mode: normal;
+}
 
-.rectangle_8 {
+.rectangle_5 {
+  position: absolute;
+  left: 105.31px;
+  top: 57.93px;
+  width: 156.54px;
+  height: 171.65px;
+  background: #36404f;
+  background-blend-mode: normal;
+}
+.rectangle_6 {
+  position: absolute;
+  left: 281.77px;
+  top: 57.93px;
+  width: 88.23px;
+  height: 171.65px;
+  background: #36404f;
+  background-blend-mode: normal;
+}
+.rectangle_7 {
   position: absolute;
   left: 0px;
   top: 241.38px;
@@ -88,7 +72,15 @@
   background-blend-mode: normal;
   transform: scaleY(-1);
 }
-
+.rectangle_8 {
+  position: absolute;
+  left: 44.12px;
+  top: 241.38px;
+  width: 281.77px;
+  height: 38.62px;
+  background: #36404f;
+  background-blend-mode: normal;
+}
 .rectangle_9 {
   position: absolute;
   left: 342.96px;
