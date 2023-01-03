@@ -4,6 +4,7 @@ import '../styles/house-top-view.scss'
 import gear from '../../resources/gear.png'
 import Clock from '../components/Clock';
 import CustomDate from '../components/CustomDate';
+import Button from '../components/Button';
 
 const Dashboard = () => {
     return (
@@ -21,9 +22,11 @@ const Dashboard = () => {
                 </div>
                 <div className='middle-toolbar'>
                     <div className='upper-options'>
-                        <button className='data-stats-button'>DATA / STATS</button>
-                        <button className='dashboard-button'>DASHBOARD</button>
-                        <button className='security-button'>SECURITY</button>
+                        <Button label="DATA / STATS"></Button>
+                        <Button label="DASHBOARD"></Button>
+                        <Button label="SECURITY"></Button>
+                        {/* <button className='dashboard-button'>DASHBOARD</button>
+                        <button className='security-button'>SECURITY</button> */}
                     </div>
                     <div className='main-visual'>
                         <div className='group'>
@@ -42,9 +45,12 @@ const Dashboard = () => {
 
                     </div>
                     <div className='lower-options'>
-                        <button className='hydro-system-button'>HYDRO SYSTEM</button>
+                        <Button label="HYDRO SYSTEM"></Button>
+                        <Button label="USERS"></Button>
+                        <Button label="LAB"></Button>
+                        {/* <button className='hydro-system-button'>HYDRO SYSTEM</button>
                         <button className='users-button'>USERS</button>
-                        <button className='lab-button'>LAB</button>
+                        <button className='lab-button'>LAB</button> */}
                     </div>
                 </div>
                 <div className='right-toolbar'>
