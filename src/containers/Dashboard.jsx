@@ -2,15 +2,17 @@ import React from 'react';
 import '../styles/dashboard.scss'
 import '../styles/house-top-view.scss'
 import gear from '../../resources/gear.png'
+import Clock from '../components/Clock';
+import CustomDate from '../components/CustomDate';
 
 const Dashboard = () => {
     return (
         <div className='app-grid'>
-            <div class= "w3-bar" className='header-options'>
-                <div class="w3-bar-item w3-left">user</div>
-                <div class="w3-bar-item">voice assistant: enabled</div>
-                <div class="w3-bar-item">YYYY-MM-DD</div>
-                <div class="w3-bar-item">hh:mm:ss</div>
+            <div className='header-options'>
+                <div className="w3-bar-item">user</div>
+                <div className="w3-bar-item">voice assistant: enabled</div>
+                <CustomDate className="w3-bar-item"></CustomDate>
+                <Clock className="w3-bar-item">w3-bar-item</Clock>
                 <img src={gear} alt="" />
             </div>
             <div className='dashboard-interactive'>
