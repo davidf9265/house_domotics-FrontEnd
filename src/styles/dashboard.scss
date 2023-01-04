@@ -4,12 +4,14 @@
         display: grid;
     }
     .header-options {
-        height: 5vh;
+        height: 10vh;
         grid-row: 1;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         padding-top: 5px;
+        justify-content: center;
+        align-items: center;
     }
     .w3-bar-item {
         padding-right: 86px;
@@ -67,12 +69,14 @@
         margin: 3%;
         border-radius: 8px;
         background-color: #D3D3D3;
+        color: #36404F;
     }
     .custom-button-pressed {
         width: 25%;
         margin: 3%;
         border-radius: 8px;
         background-color: #364F39;
+        color: #D3D3D3;
     }
     .right-toolbar {
         height: 100%;
